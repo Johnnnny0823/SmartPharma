@@ -1,0 +1,9 @@
+node_modules/
+database.sqlite
+.DS_Store
+cdc_raw/
+__pycache__/
+_backup_*/
+reqs2.json
+*.docx
+*.pdf
