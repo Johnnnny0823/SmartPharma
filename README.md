@@ -17,6 +17,20 @@
 
 ---
 
+## 📸 系統畫面
+
+| 登入（測試帳號密碼皆為 `123`） | 居民：線上慢箋預約與處方上傳 |
+|---|---|
+| ![登入](docs/screenshots/login.jpg) | ![居民首頁](docs/screenshots/buyer.jpg) |
+| **藥師：颱風警戒模式（安全庫存 2.0x）** | **跨店即時庫存** |
+| ![颱風模式](docs/screenshots/pharmacist-typhoon.jpg) | ![跨店庫存](docs/screenshots/inventory.jpg) |
+
+**衛生局主管：季節性疾病與用藥分佈預測圖**（截圖時尚未匯入疾管署資料，顯示的是示意資料）
+
+![季節性疾病預測圖](docs/screenshots/seasonal-chart.jpg)
+
+---
+
 ## ✨ 功能亮點
 
 - **跨店庫存與雙向調撥**：藥局缺藥時可向鄰近藥局發起調撥，對方審核後由物流專車配送（待審核 → 已核准出庫 → 專車配送中）
