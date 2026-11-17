@@ -19,15 +19,37 @@
 
 ## 📸 系統畫面
 
-| 登入（測試帳號密碼皆為 `123`） | 居民：線上慢箋預約與處方上傳 |
+以下畫面取自本機 PoC。庫存、調撥與配送使用示範資料，季節趨勢圖使用疾管署公開的歷史就診人次。
+
+### 歷史疾病季節趨勢
+
+新北市 2021–2025 年的歷史統計，展示流感、腸病毒與腹瀉各月就診人次占全年的比例。介面也可切換縣市或查看每月平均就診人次。
+
+![疾管署季節趨勢，新北市 2021–2025 年，顯示三種疾病的月度曲線](docs/screenshots/seasonal-cdc.jpg)
+
+### 角色登入與居民預約
+
+| 登入與快速測試角色 | 居民：線上慢箋預約與處方上傳 |
 |---|---|
 | ![登入](docs/screenshots/login.jpg) | ![居民首頁](docs/screenshots/buyer.jpg) |
-| **藥師：颱風警戒模式（安全庫存 2.0x）** | **跨店即時庫存** |
+
+### 藥師庫存與調撥
+
+| 颱風警戒模式（安全庫存 2.0x） | 跨店即時庫存 |
+|---|---|
 | ![颱風模式](docs/screenshots/pharmacist-typhoon.jpg) | ![跨店庫存](docs/screenshots/inventory.jpg) |
+| **收到的同業調撥申請** | **發出的調撥申請與進度** |
+| ![藥師審核收到的調撥申請，表格顯示需求品項、數量與處理狀態](docs/screenshots/pharmacist-review.jpg) | ![藥局端的調撥申請追蹤，顯示支援站點、藥品與出貨進度](docs/screenshots/pharmacist-transfers.jpg) |
 
-**衛生局主管：季節性疾病與用藥分佈預測圖**（截圖時尚未匯入疾管署資料，顯示的是示意資料）
+### 車隊任務與路線
 
-![季節性疾病預測圖](docs/screenshots/seasonal-chart.jpg)
+| 總部與藥局停靠順序 | 司機配送任務 |
+|---|---|
+| ![車隊路線規劃，顯示總里程、預估時間與停靠據點](docs/screenshots/driver-route.jpg) | ![司機任務中心，顯示已核准的藥品配送任務](docs/screenshots/driver-tasks.jpg) |
+
+### 衛生局調撥追蹤
+
+![全區調撥追蹤，顯示跨站路線、藥品、預計抵達時間與處理狀態](docs/screenshots/admin-dispatch.jpg)
 
 ---
 
